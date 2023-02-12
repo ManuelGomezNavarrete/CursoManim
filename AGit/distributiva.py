@@ -24,13 +24,13 @@ class Distributiva(Scene):
         self.play(ReplacementTransform(eqn1[0],eqn1[7]),ReplacementTransform(eqn1[3],eqn1[9]),run_time=1)
         self.wait()
         self.play(ReplacementTransform(eqn1[7],eqn2[7]),ReplacementTransform(eqn1[9],eqn2[9]),run_time=1)
-        self.wait(2)
+        self.wait()
         self.play(ReplacementTransform(eqn2bis[0],eqn1bis[0]),ReplacementTransform(eqn2bis[5],eqn1bis[5]),run_time=1)
         self.wait()
         self.play(ReplacementTransform(eqn1bis[0],eqn1bis[11]),ReplacementTransform(eqn1bis[5],eqn1bis[13]),run_time=1)
         self.wait()
         self.play(ReplacementTransform(eqn1bis[11],eqn2bis[11]),ReplacementTransform(eqn1bis[13],eqn2bis[13]),run_time=1)
-        self.wait(2)
+        self.wait(3)
         
        
        
